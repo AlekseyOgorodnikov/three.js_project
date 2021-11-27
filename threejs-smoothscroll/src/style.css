@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  margin-left: 10vw;
+  font-weight: lighter;
+  font-size: 5em;
+}

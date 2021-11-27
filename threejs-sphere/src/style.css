@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  background-color: rgb(24, 24, 24);
+  position: relative;
+}
+body {
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  mix-blend-mode: exclusion;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.title {
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 7rem;
+  text-transform: uppercase;
+}
+
+section {
+  height: 100vh;
+}

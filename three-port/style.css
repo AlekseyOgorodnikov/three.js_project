@@ -1,0 +1,67 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tw {
+  color: white;
+}
+
+.reset {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto;
+  transition: all 0.3s ease-in;
+  display: block;
+}
+
+.reset:hover {
+  background-color: white;
+  color: #001e40;
+}
+
+.title {
+  font-size: 5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.descr {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
